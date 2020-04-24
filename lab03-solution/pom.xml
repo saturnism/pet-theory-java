@@ -47,22 +47,22 @@
 			</exclusions>
 		</dependency>
 
-    <!-- use documents4j -->
 		<dependency>
-			<groupId>com.documents4j</groupId>
-			<artifactId>documents4j-api</artifactId>
-			<version>1.1.3</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.documents4j</groupId>
-			<artifactId>documents4j-local</artifactId>
-			<version>1.1.3</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.documents4j</groupId>
-			<artifactId>documents4j-transformer-msoffice-word</artifactId>
-			<version>1.1.3</version>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
+			<version>2.0.2</version>
 		</dependency>
+
 
 		<!-- Spring Cloud GCP for Cloud Storage -->
 		<dependency>
